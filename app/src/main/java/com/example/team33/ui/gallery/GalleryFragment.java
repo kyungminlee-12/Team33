@@ -3,9 +3,11 @@ package com.example.team33.ui.gallery;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -26,7 +28,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class GalleryFragment extends Fragment {
+public class GalleryFragment extends Fragment implements View.OnClickListener {
 
     private GalleryViewModel galleryViewModel;
 
@@ -113,17 +115,22 @@ public class GalleryFragment extends Fragment {
             list2_PolicyDates[i].setText(date2);
         }
 
+    Button onButtonClickedInputRecord = (Button) root.findViewById(R.id.btn1);
+    onButtonClickedInputRecord.setOnClickListener(this);
+
     return root;
     }
 
-    public void detailPolicyPage(View view){
-        int id = view.getId();
+    @Override
+    public void onClick(View v) {
+        // Button b = (Button) v;
 
-        LinearLayout layout = view.findViewById(id);
-        String tag = (String) layout.getTag();
-
-        Intent intent = new Intent(getActivity(), JobPolicy1.class);
-        intent.putExtra("click_tag", tag);
-        startActivity(intent);
+        // switch(b.getId()) {
+            //id에 따라서 다른 구현을 한다.
+            // case R.id.btn1:
+                //버튼 클릭시 아래 구현이 실행된다.
+        getActivity().startActivity(new Intent(getActivity(), JobPolicy1.class));
+        //        break;
+        //}
     }
 }

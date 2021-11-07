@@ -20,9 +20,6 @@ public class JobPolicy1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_job_policy1);
 
-        Intent intent = getIntent();
-        String tag = intent.getStringExtra("click_tag");
-
         /*text=(TextView) findViewById(R.id.relate_content1);
         text2=(TextView)findViewById(R.id.relate_content2);
         text.setOnClickListener(this::onClick);
