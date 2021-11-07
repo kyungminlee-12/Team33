@@ -24,6 +24,12 @@
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
+        android:id="@+id/nav_finance"
+        android:name="com.example.team33.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_finance"
+        tools:layout="@layout/fragment_finance" />
+
+    <fragment
         android:id="@+id/nav_vocabulary"
         android:name="com.example.team33.ui.vocabulary.VocabularyFragment"
         android:label="@string/menu_vocabulary"

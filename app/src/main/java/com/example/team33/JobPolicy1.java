@@ -22,31 +22,5 @@ public class JobPolicy1 extends AppCompatActivity {
 
         Intent intent = getIntent();
         String tag = intent.getStringExtra("click_tag");
-
-        /*text=(TextView) findViewById(R.id.relate_content1);
-        text2=(TextView)findViewById(R.id.relate_content2);
-        text.setOnClickListener(this::onClick);
-        text2.setOnClickListener(this::onClick);
-        btn=(Button)findViewById(R.id.button);
-        btn.setOnClickListener(this::onClick);*/
     }
-
-    /*public void onClick(View v){
-        switch (v.getId()){
-            case R.id.relate_content1:
-                intent=new Intent(JobPolicy.this,JobPolicy2.class);
-                startActivity(intent);
-                break;
-
-            case R.id.relate_content2:
-                intent=new Intent(JobPolicy.this,JobPolicy3.class);
-                startActivity(intent);
-                break;
-
-            case R.id.button:
-                intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youth.seoul.go.kr/site/main/content/dream_app"));
-                startActivity(intent);
-                break;
-        }
-    }*/
 }
