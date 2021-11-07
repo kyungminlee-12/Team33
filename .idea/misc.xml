@@ -13,10 +13,11 @@
         <entry key="..\:/CookAndroid/Project/Team33Project/Team33/app/src/main/res/layout/activity_money_policy1.xml" value="0.14764492753623187" />
         <entry key="..\:/CookAndroid/Project/Team33Project/Team33/app/src/main/res/layout/fragment_finance.xml" value="0.21467391304347827" />
         <entry key="..\:/CookAndroid/Project/Team33Project/Team33/app/src/main/res/layout/fragment_gallery.xml" value="0.21467391304347827" />
+        <entry key="..\:/CookAndroid/Project/Team33Project/Team33/app/src/main/res/layout/fragment_slideshow.xml" value="0.175" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

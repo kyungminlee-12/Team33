@@ -35,7 +35,7 @@ import com.example.team33.MoneyPolicyRed2;
 import com.example.team33.R;
 
 
-public class FinanceFragment extends Fragment {
+public class FinanceFragment extends Fragment implements View.OnClickListener {
 
     private FinanceViewModel galleryViewModel;
 
@@ -123,10 +123,7 @@ public class FinanceFragment extends Fragment {
             list2_PolicyDates[i].setText(date2);
         }
 
-        //Button onButtonClickedInputRecord = (Button) root.findViewById(R.id.btn1);
-        //onButtonClickedInputRecord.setOnClickListener(this);
-
-        /*Button onButtonClickedInputRecord1 = (Button) root.findViewById(R.id.moneyBtn1);
+        Button onButtonClickedInputRecord1 = (Button) root.findViewById(R.id.moneyBtn1);
         onButtonClickedInputRecord1.setOnClickListener(this);
         Button onButtonClickedInputRecord2 = (Button) root.findViewById(R.id.moneyBtn2);
         onButtonClickedInputRecord2.setOnClickListener(this);
@@ -139,13 +136,12 @@ public class FinanceFragment extends Fragment {
         Button onButtonClickedInputRecord6 = (Button) root.findViewById(R.id.moneyBtn6);
         onButtonClickedInputRecord6.setOnClickListener(this);
         Button onButtonClickedInputRecord7 = (Button) root.findViewById(R.id.moneyBtn7);
-        onButtonClickedInputRecord7.setOnClickListener(this);*/
-
+        onButtonClickedInputRecord7.setOnClickListener(this);
 
         return root;
     }
 
-    /*@Override
+    @Override
     public void onClick(View v) {
         Button b = (Button) v;
 
@@ -180,5 +176,5 @@ public class FinanceFragment extends Fragment {
                 getActivity().startActivity(new Intent(getActivity(), MoneyPolicyRed2.class));
                 break;
         }
-    }*/
+    }
 }

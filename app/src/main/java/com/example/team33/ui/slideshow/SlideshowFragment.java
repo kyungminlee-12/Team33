@@ -29,7 +29,7 @@ import com.example.team33.LivePolicy10;
 
 import com.example.team33.R;
 
-public class SlideshowFragment extends Fragment {
+public class SlideshowFragment extends Fragment implements View.OnClickListener {
 
     private SlideshowViewModel slideshowViewModel;
 
@@ -115,7 +115,7 @@ public class SlideshowFragment extends Fragment {
             list2_PolicyDates[i].setText(date2);
         }
 
-        /*Button onButtonClickedInputRecord1 = (Button) root.findViewById(R.id.liveBtn1);
+        Button onButtonClickedInputRecord1 = (Button) root.findViewById(R.id.liveBtn1);
         onButtonClickedInputRecord1.setOnClickListener(this);
         Button onButtonClickedInputRecord2 = (Button) root.findViewById(R.id.liveBtn2);
         onButtonClickedInputRecord2.setOnClickListener(this);
@@ -135,15 +135,11 @@ public class SlideshowFragment extends Fragment {
         onButtonClickedInputRecord9.setOnClickListener(this);
         Button onButtonClickedInputRecord10 = (Button) root.findViewById(R.id.liveBtn10);
         onButtonClickedInputRecord10.setOnClickListener(this);
-        Button onButtonClickedInputRecord11 = (Button) root.findViewById(R.id.liveBtn11);
-        onButtonClickedInputRecord11.setOnClickListener(this);
-        Button onButtonClickedInputRecord12 = (Button) root.findViewById(R.id.liveBtn12);
-        onButtonClickedInputRecord12.setOnClickListener(this);*/
 
         return root;
     }
 
-    /*@Override
+    @Override
     public void onClick(View v) {
         Button b = (Button) v;
 
@@ -190,5 +186,5 @@ public class SlideshowFragment extends Fragment {
                 getActivity().startActivity(new Intent(getActivity(), LivePolicy10.class));
                 break;
         }
-    }*/
+    }
 }

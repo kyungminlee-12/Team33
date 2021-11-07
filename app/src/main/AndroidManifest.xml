@@ -21,35 +21,63 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".LivePolicy10"></activity>
-        <activity android:name=".LivePolicy9" />
-        <activity android:name=".LivePolicy8" />
-        <activity android:name=".LivePolicy7" />
-        <activity android:name=".LivePolicy6" />
-        <activity android:name=".LivePolicy5" />
-        <activity android:name=".LivePolicy4" />
-        <activity android:name=".LivePolicy3" />
-        <activity android:name=".LivePolicy2" />
-        <activity android:name=".LivePolicy1" />
-        <activity android:name=".MoneyPolicyRed2" />
-        <activity android:name=".MoneyPolicy5" />
-        <activity android:name=".MoneyPolicy4" />
-        <activity android:name=".MoneyPolicyRed1" />
-        <activity android:name=".MoneyPolicy3" />
-        <activity android:name=".MoneyPolicy2" />
-        <activity android:name=".MoneyPolicy1" />
-        <activity android:name=".JobPolicyRed2" />
-        <activity android:name=".JobPolicyRed1" />
-        <activity android:name=".JobPolicy10" />
-        <activity android:name=".JobPolicy9" />
-        <activity android:name=".JobPolicy8" />
-        <activity android:name=".JobPolicy7" />
-        <activity android:name=".JobPolicy6" />
-        <activity android:name=".JobPolicy5" />
-        <activity android:name=".JobPolicy4" />
-        <activity android:name=".JobPolicy3" />
-        <activity android:name=".JobPolicy2" />
-        <activity android:name=".JobPolicy1"/>
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".LivePolicy10"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".LivePolicy9"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".LivePolicy8"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".LivePolicy7"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".LivePolicy6"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".LivePolicy5"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".LivePolicy4"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".LivePolicy3"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".LivePolicy2"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".LivePolicy1"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".MoneyPolicyRed2"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".MoneyPolicy5"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".MoneyPolicy4"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".MoneyPolicyRed1"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".MoneyPolicy3"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".MoneyPolicy2"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".MoneyPolicy1"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicyRed2"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicyRed1"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicy10"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicy9"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicy8"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicy7"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicy6"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicy5"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicy4"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicy3"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicy2"/>
+
+        <activity android:theme="@style/Theme.Team33.Special" android:name=".JobPolicy1"/>
     </application>
 
 </manifest>
