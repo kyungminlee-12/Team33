@@ -18,6 +18,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.example.team33.JobPolicy1;
 import com.example.team33.R;
+import com.example.team33.ui.slideshow.SlideshowViewModel;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.res.Resources;
@@ -40,7 +42,8 @@ public class GalleryFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-
+        galleryViewModel =
+                new ViewModelProvider(this).get(GalleryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
 
         tv_sub1Title = (TextView) root.findViewById(R.id.tvSub1Title);
@@ -113,7 +116,7 @@ public class GalleryFragment extends Fragment {
     return root;
     }
 
-    /*public void detailPolicyPage(View view){
+    public void detailPolicyPage(View view){
         int id = view.getId();
 
         LinearLayout layout = view.findViewById(id);
@@ -122,5 +125,5 @@ public class GalleryFragment extends Fragment {
         Intent intent = new Intent(getActivity(), JobPolicy1.class);
         intent.putExtra("click_tag", tag);
         startActivity(intent);
-    }*/
+    }
 }
