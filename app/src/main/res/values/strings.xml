@@ -14,7 +14,6 @@
     <string name="menu_vocabulary">오늘의 용어</string>
 
     // JOB
-    <string name="jobTitle">일자리</string>
     <string name="jobSub1Title">청년을 위한 취업지원</string>
     <string name="jobSub2Title">청년을 위한 취업과 근로환경</string>
 
@@ -57,7 +56,6 @@
     <string name="job2Policy2Date">홈페이지 참고</string>
 
     // DWELLING
-    <string name="liveTitle">주거</string>
     <string name="liveSub1Title">청년을 위한 주거금 지원</string>
     <string name="liveSub2Title">청년을 위한 주택 지원</string>
 
