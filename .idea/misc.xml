@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CookAndroid/Project/Team33/app/src/main/res/drawable/base_badge.xml" value="0.1" />
         <entry key="..\:/CookAndroid/Project/Team33/app/src/main/res/drawable/edge.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/Team33/app/src/main/res/layout/activity_job_policy1.xml" value="0.10326086956521739" />
         <entry key="..\:/CookAndroid/Project/Team33/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="..\:/CookAndroid/Project/Team33/app/src/main/res/layout/fragment_home.xml" value="0.1" />
       </map>

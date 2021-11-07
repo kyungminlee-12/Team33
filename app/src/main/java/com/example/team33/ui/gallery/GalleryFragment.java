@@ -1,10 +1,12 @@
 package com.example.team33.ui.gallery;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -14,6 +16,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.example.team33.JobPolicy1;
 import com.example.team33.R;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,9 +29,9 @@ public class GalleryFragment extends Fragment {
     private GalleryViewModel galleryViewModel;
 
     TextView tv_sub1Title, tv_sub2Title;
-    TextView list1_PolicyNames[] = new TextView[5];
-    TextView list1_PolicyContents[] = new TextView[5];
-    TextView list1_PolicyDates[] = new TextView[5];
+    TextView list1_PolicyNames[] = new TextView[10];
+    TextView list1_PolicyContents[] = new TextView[10];
+    TextView list1_PolicyDates[] = new TextView[10];
 
     TextView list2_PolicyNames[] = new TextView[2];
     TextView list2_PolicyContents[] = new TextView[2];
@@ -37,6 +40,7 @@ public class GalleryFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
 
         tv_sub1Title = (TextView) root.findViewById(R.id.tvSub1Title);
@@ -59,16 +63,16 @@ public class GalleryFragment extends Fragment {
 
         for(int i=0; i<sub1; i++) {
             // 레이아웃에 설정된 View 가져오기
-            int sub1PolicyName = getResources().getIdentifier("tv1Policy" + (i + 1) + "Title", "id", getActivity().getPackageName());
-            int sub1PolicyContent = getResources().getIdentifier("tv1Policy" + (i + 1) + "Content", "id", getActivity().getPackageName());
-            int sub1PolicyDate = getResources().getIdentifier("tv1Policy" + (i + 1) + "Date", "id", getActivity().getPackageName());
+            int sub1PolicyName = getResources().getIdentifier("tv1Policy" + (i + 1) + "Title", "id", (getActivity()).getPackageName());
+            int sub1PolicyContent = getResources().getIdentifier("tv1Policy" + (i + 1) + "Content", "id", (getActivity()).getPackageName());
+            int sub1PolicyDate = getResources().getIdentifier("tv1Policy" + (i + 1) + "Date", "id", (getActivity()).getPackageName());
 
             list1_PolicyNames[i] = (TextView) root.findViewById(sub1PolicyName);
             list1_PolicyContents[i] = (TextView) root.findViewById(sub1PolicyContent);
             list1_PolicyDates[i] = (TextView) root.findViewById(sub1PolicyDate);
 
             // string에서 text 가져오기
-            /*int id_title1 = res.getIdentifier(tag + "1Policy" + (i + 1) + "Title", "string", getActivity().getPackageName());
+            int id_title1 = res.getIdentifier(tag + "1Policy" + (i + 1) + "Title", "string", getActivity().getPackageName());
             String title1 = res.getString(id_title1);
             list1_PolicyNames[i].setText(title1);
 
@@ -78,10 +82,10 @@ public class GalleryFragment extends Fragment {
 
             int id_date1 = res.getIdentifier(tag + "1Policy" + (i + 1) + "Date", "string", getActivity().getPackageName());
             String date1 = res.getString(id_date1);
-            list1_PolicyDates[i].setText(date1);*/
+            list1_PolicyDates[i].setText(date1);
         }
 
-        /*for(int i=0; i<sub2; i++) {
+        for(int i=0; i<sub2; i++) {
             // sub1
             // 레이아웃에 설정된 View 가져오기
             int sub2PolicyName = res.getIdentifier("tv2Policy" + (i+1) + "Title", "id", getActivity().getPackageName());
@@ -104,8 +108,19 @@ public class GalleryFragment extends Fragment {
             int id_date2 = res.getIdentifier(tag + "2Policy" + (i+1) + "Date", "string", getActivity().getPackageName());
             String date2 = res.getString(id_date2);
             list2_PolicyDates[i].setText(date2);
-        }*/
+        }
 
-        return root;
+    return root;
     }
+
+    /*public void detailPolicyPage(View view){
+        int id = view.getId();
+
+        LinearLayout layout = view.findViewById(id);
+        String tag = (String) layout.getTag();
+
+        Intent intent = new Intent(getActivity(), JobPolicy1.class);
+        intent.putExtra("click_tag", tag);
+        startActivity(intent);
+    }*/
 }
