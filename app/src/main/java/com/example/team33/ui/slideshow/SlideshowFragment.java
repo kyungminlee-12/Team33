@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -15,8 +16,17 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 
 
-import com.example.team33.JobPolicyRed1;
-import com.example.team33.JobPolicyRed2;
+import com.example.team33.LivePolicy1;
+import com.example.team33.LivePolicy2;
+import com.example.team33.LivePolicy3;
+import com.example.team33.LivePolicy4;
+import com.example.team33.LivePolicy5;
+import com.example.team33.LivePolicy6;
+import com.example.team33.LivePolicy7;
+import com.example.team33.LivePolicy8;
+import com.example.team33.LivePolicy9;
+import com.example.team33.LivePolicy10;
+
 import com.example.team33.R;
 
 public class SlideshowFragment extends Fragment {
@@ -105,7 +115,80 @@ public class SlideshowFragment extends Fragment {
             list2_PolicyDates[i].setText(date2);
         }
 
+        /*Button onButtonClickedInputRecord1 = (Button) root.findViewById(R.id.liveBtn1);
+        onButtonClickedInputRecord1.setOnClickListener(this);
+        Button onButtonClickedInputRecord2 = (Button) root.findViewById(R.id.liveBtn2);
+        onButtonClickedInputRecord2.setOnClickListener(this);
+        Button onButtonClickedInputRecord3 = (Button) root.findViewById(R.id.liveBtn3);
+        onButtonClickedInputRecord3.setOnClickListener(this);
+        Button onButtonClickedInputRecord4 = (Button) root.findViewById(R.id.liveBtn4);
+        onButtonClickedInputRecord4.setOnClickListener(this);
+        Button onButtonClickedInputRecord5 = (Button) root.findViewById(R.id.liveBtn5);
+        onButtonClickedInputRecord5.setOnClickListener(this);
+        Button onButtonClickedInputRecord6 = (Button) root.findViewById(R.id.liveBtn6);
+        onButtonClickedInputRecord6.setOnClickListener(this);
+        Button onButtonClickedInputRecord7 = (Button) root.findViewById(R.id.liveBtn7);
+        onButtonClickedInputRecord7.setOnClickListener(this);
+        Button onButtonClickedInputRecord8 = (Button) root.findViewById(R.id.liveBtn8);
+        onButtonClickedInputRecord8.setOnClickListener(this);
+        Button onButtonClickedInputRecord9 = (Button) root.findViewById(R.id.liveBtn9);
+        onButtonClickedInputRecord9.setOnClickListener(this);
+        Button onButtonClickedInputRecord10 = (Button) root.findViewById(R.id.liveBtn10);
+        onButtonClickedInputRecord10.setOnClickListener(this);
+        Button onButtonClickedInputRecord11 = (Button) root.findViewById(R.id.liveBtn11);
+        onButtonClickedInputRecord11.setOnClickListener(this);
+        Button onButtonClickedInputRecord12 = (Button) root.findViewById(R.id.liveBtn12);
+        onButtonClickedInputRecord12.setOnClickListener(this);*/
+
         return root;
     }
 
+    /*@Override
+    public void onClick(View v) {
+        Button b = (Button) v;
+
+        switch (b.getId()) {
+            //id에 따라서 다른 구현을 한다.
+            case R.id.liveBtn1:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), LivePolicy1.class));
+                break;
+            case R.id.liveBtn2:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), LivePolicy2.class));
+                break;
+            case R.id.liveBtn3:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), LivePolicy3.class));
+                break;
+            case R.id.liveBtn4:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), LivePolicy4.class));
+                break;
+            case R.id.liveBtn5:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), LivePolicy5.class));
+                break;
+            case R.id.liveBtn6:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), LivePolicy6.class));
+                break;
+            case R.id.liveBtn7:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), LivePolicy7.class));
+                break;
+            case R.id.liveBtn8:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), LivePolicy8.class));
+                break;
+            case R.id.liveBtn9:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), LivePolicy9.class));
+                break;
+            case R.id.liveBtn10:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), LivePolicy10.class));
+                break;
+        }
+    }*/
 }

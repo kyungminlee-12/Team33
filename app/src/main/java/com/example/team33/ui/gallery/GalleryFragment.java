@@ -202,9 +202,6 @@ public class GalleryFragment extends Fragment implements View.OnClickListener {
                 //버튼 클릭시 아래 구현이 실행된다.
                 getActivity().startActivity(new Intent(getActivity(), JobPolicyRed2.class));
                 break;
-
-
-
         }
     }
 }
