@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.example.team33.JobPolicy1;
+
 import com.example.team33.JobPolicy10;
 import com.example.team33.JobPolicy2;
 import com.example.team33.JobPolicy3;
@@ -32,7 +33,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 public class GalleryFragment extends Fragment implements View.OnClickListener {
 
-    private GalleryViewModel galleryViewModel;
+    //private GalleryViewModel galleryViewModel;
 
     TextView tv_sub1Title, tv_sub2Title;
     TextView list1_PolicyNames[] = new TextView[10];
@@ -47,8 +48,7 @@ public class GalleryFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        //galleryViewModel =new ViewModelProvider(this).get(GalleryViewModel.class);
 
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
 
