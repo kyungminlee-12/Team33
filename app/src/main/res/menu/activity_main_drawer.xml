@@ -16,5 +16,10 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_vocabulary"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="오늘의 용어" />
     </group>
 </menu>
