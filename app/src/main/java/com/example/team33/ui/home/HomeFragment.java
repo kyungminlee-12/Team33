@@ -24,8 +24,9 @@ public class HomeFragment extends Fragment {
     private HomeViewModel homeViewModel;
 
     RecyclerView mRecyclerView1, mRecyclerView2;
-    MyRecyclerAdapter mRecyclerAdapter;
+    MyRecyclerAdapter mRecyclerAdapter, mRecyclerAdapter2;
     ArrayList<PolicyItem> mpolicyItems = new ArrayList<>();;
+    ArrayList<PolicyItem> mpolicyItems2 = new ArrayList<>();;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -46,15 +47,17 @@ public class HomeFragment extends Fragment {
         mRecyclerView2 = (RecyclerView) rootView.findViewById(R.id.recyclerView2);
 
         mpolicyItems = PolicyItem.createContactsList(3);
+        mpolicyItems2 = PolicyItem.createContactsList2(3);
 
         /* initiate adapter */
         mRecyclerAdapter = new MyRecyclerAdapter(getActivity(), mpolicyItems);
+        mRecyclerAdapter2 = new MyRecyclerAdapter(getActivity(), mpolicyItems2);
 
         /* initiate recyclerview */
         mRecyclerView1.setAdapter(mRecyclerAdapter);
         mRecyclerView1.setLayoutManager(new LinearLayoutManager(getActivity()));
 
-        mRecyclerView2.setAdapter(mRecyclerAdapter);
+        mRecyclerView2.setAdapter(mRecyclerAdapter2);
         mRecyclerView2.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         return rootView;
