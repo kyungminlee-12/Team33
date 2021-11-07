@@ -22,4 +22,10 @@
         android:name="com.example.team33.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_vocabulary"
+        android:name="com.example.team33.ui.vocabulary.VocabularyFragment"
+        android:label="@string/menu_vocabulary"
+        tools:layout="@layout/fragment_vocabulary" />
 </navigation>
