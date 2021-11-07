@@ -109,6 +109,7 @@
                             <Button
                                 android:id="@+id/btn1"
                                 android:layout_width="80dp"
+
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
                                 android:layout_gravity="center"
@@ -164,6 +165,7 @@
 
                             </LinearLayout>
                             <Button
+
                                 android:id="@+id/btn2"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
@@ -219,7 +221,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn3"
+                                android:id="@+id/jobBtn3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -276,7 +278,7 @@
                                     android:textSize="20px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn4"
+                                android:id="@+id/jobBtn4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -333,7 +335,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn5"
+                                android:id="@+id/jobBtn5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -390,7 +392,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn6"
+                                android:id="@+id/jobBtn6"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -447,7 +449,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn7"
+                                android:id="@+id/jobBtn7"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -504,7 +506,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn8"
+                                android:id="@+id/jobBtn8"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -561,7 +563,7 @@
                                     android:textSize="20px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn9"
+                                android:id="@+id/jobBtn9"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -618,7 +620,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn10"
+                                android:id="@+id/jobBtn10"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -716,7 +718,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn11"
+                                android:id="@+id/jobBtn11"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -773,7 +775,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn12"
+                                android:id="@+id/jobBtn12"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"

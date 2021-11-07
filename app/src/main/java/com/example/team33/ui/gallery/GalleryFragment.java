@@ -3,23 +3,32 @@ package com.example.team33.ui.gallery;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.Button;
-import android.widget.LinearLayout;
 
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.example.team33.JobPolicy1;
-import com.example.team33.R;
-import com.example.team33.ui.slideshow.SlideshowViewModel;
-import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.team33.JobPolicy10;
+import com.example.team33.JobPolicy2;
+import com.example.team33.JobPolicy3;
+import com.example.team33.JobPolicy4;
+import com.example.team33.JobPolicy5;
+import com.example.team33.JobPolicy6;
+import com.example.team33.JobPolicy7;
+import com.example.team33.JobPolicy8;
+import com.example.team33.JobPolicy9;
+import com.example.team33.JobPolicyRed1;
+import com.example.team33.JobPolicyRed2;
+import com.example.team33.R;
+
+import androidx.lifecycle.ViewModelProvider;
 
 
 public class GalleryFragment extends Fragment implements View.OnClickListener {
@@ -110,8 +119,31 @@ public class GalleryFragment extends Fragment implements View.OnClickListener {
             list2_PolicyDates[i].setText(date2);
         }
 
-    Button onButtonClickedInputRecord = (Button) root.findViewById(R.id.btn1);
-    onButtonClickedInputRecord.setOnClickListener(this);
+    Button onButtonClickedInputRecord1 = (Button) root.findViewById(R.id.jobBtn1);
+    onButtonClickedInputRecord1.setOnClickListener(this);
+    Button onButtonClickedInputRecord2 = (Button) root.findViewById(R.id.jobBtn2);
+    onButtonClickedInputRecord2.setOnClickListener(this);
+    Button onButtonClickedInputRecord3 = (Button) root.findViewById(R.id.jobBtn3);
+    onButtonClickedInputRecord3.setOnClickListener(this);
+    Button onButtonClickedInputRecord4 = (Button) root.findViewById(R.id.jobBtn4);
+    onButtonClickedInputRecord4.setOnClickListener(this);
+    Button onButtonClickedInputRecord5 = (Button) root.findViewById(R.id.jobBtn5);
+    onButtonClickedInputRecord5.setOnClickListener(this);
+    Button onButtonClickedInputRecord6 = (Button) root.findViewById(R.id.jobBtn6);
+    onButtonClickedInputRecord6.setOnClickListener(this);
+    Button onButtonClickedInputRecord7 = (Button) root.findViewById(R.id.jobBtn7);
+    onButtonClickedInputRecord7.setOnClickListener(this);
+    Button onButtonClickedInputRecord8 = (Button) root.findViewById(R.id.jobBtn8);
+    onButtonClickedInputRecord8.setOnClickListener(this);
+    Button onButtonClickedInputRecord9 = (Button) root.findViewById(R.id.jobBtn9);
+    onButtonClickedInputRecord9.setOnClickListener(this);
+    Button onButtonClickedInputRecord10 = (Button) root.findViewById(R.id.jobBtn10);
+    onButtonClickedInputRecord10.setOnClickListener(this);
+    Button onButtonClickedInputRecord11 = (Button) root.findViewById(R.id.jobBtn11);
+    onButtonClickedInputRecord11.setOnClickListener(this);
+    Button onButtonClickedInputRecord12 = (Button) root.findViewById(R.id.jobBtn12);
+    onButtonClickedInputRecord12.setOnClickListener(this);
+
 
     return root;
     }
@@ -122,10 +154,57 @@ public class GalleryFragment extends Fragment implements View.OnClickListener {
 
         switch(b.getId()) {
             //id에 따라서 다른 구현을 한다.
-             case R.id.btn1:
+            case R.id.jobBtn1:
                 //버튼 클릭시 아래 구현이 실행된다.
                 getActivity().startActivity(new Intent(getActivity(), JobPolicy1.class));
                 break;
+            case R.id.jobBtn2:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicy2.class));
+                break;
+            case R.id.jobBtn3:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicy3.class));
+                break;
+            case R.id.jobBtn4:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicy4.class));
+                break;
+            case R.id.jobBtn5:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicy5.class));
+                break;
+            case R.id.jobBtn6:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicy6.class));
+                break;
+            case R.id.jobBtn7:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicy7.class));
+                break;
+            case R.id.jobBtn8:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicy8.class));
+                break;
+            case R.id.jobBtn9:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicy9.class));
+                break;
+            case R.id.jobBtn10:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicy10.class));
+                break;
+            case R.id.jobBtn11:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicyRed1.class));
+                break;
+            case R.id.jobBtn12:
+                //버튼 클릭시 아래 구현이 실행된다.
+                getActivity().startActivity(new Intent(getActivity(), JobPolicyRed2.class));
+                break;
+
+
+
         }
     }
 }
