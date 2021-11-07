@@ -106,7 +106,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn12"
+                                android:id="@+id/liveBtn1"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -161,7 +161,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn22"
+                                android:id="@+id/liveBtn2"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -216,7 +216,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn32"
+                                android:id="@+id/liveBtn3"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -312,7 +312,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn42"
+                                android:id="@+id/liveBtn4"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -367,7 +367,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn52"
+                                android:id="@+id/liveBtn5"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -422,7 +422,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn62"
+                                android:id="@+id/liveBtn6"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -477,7 +477,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn72"
+                                android:id="@+id/liveBtn7"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -532,7 +532,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn82"
+                                android:id="@+id/liveBtn8"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -587,7 +587,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn92"
+                                android:id="@+id/liveBtn9"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
@@ -642,7 +642,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn102"
+                                android:id="@+id/liveBtn10"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"

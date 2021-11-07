@@ -107,7 +107,7 @@
                                     android:textSize="30px" />
                             </LinearLayout>
                             <Button
-                                android:id="@+id/btn1"
+                                android:id="@+id/jobBtn1"
                                 android:layout_width="80dp"
 
                                 android:layout_height="wrap_content"
@@ -166,7 +166,7 @@
                             </LinearLayout>
                             <Button
 
-                                android:id="@+id/btn2"
+                                android:id="@+id/jobBtn2"
                                 android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:background="@color/white"
