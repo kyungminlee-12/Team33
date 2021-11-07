@@ -14,27 +14,27 @@
     <string name="menu_vocabulary">오늘의 용어</string>
 
     // JOB
-    <string name="jobSub1Title">청년을 위한 취업지원</string>
-    <string name="jobSub2Title">청년을 위한 취업과 근로환경</string>
+    <string name="jobSub1Title">청년을 위한 일자리/취업 지원</string>
+    <string name="jobSub2Title">청년을 위한 일자리 지원금 지원</string>
 
-    <string name="job1Policy1Title">국민취업지원제도</string>
-    <string name="job1Policy1Content">고용노동부</string>
-    <string name="job1Policy1Date">상시</string>
+    <string name="job1Policy1Title">청년일자리 1,000개의 꿈</string>
+    <string name="job1Policy1Content">미래청년기획단</string>
+    <string name="job1Policy1Date">홈페이지 참고</string>
     <string name="job1Policy2Title">지역 연계형 창업 지원</string>
     <string name="job1Policy2Content">넥스트로컬</string>
     <string name="job1Policy2Date">홈페이지 참고</string>
-    <string name="job1Policy3Title">AI 면접체험•역량검사</string>
-    <string name="job1Policy3Content">서울시</string>
-    <string name="job1Policy3Date">2021년 5월 ~ 12월</string>
-    <string name="job1Policy4Title">청년프로젝트 지원사업</string>
-    <string name="job1Policy4Content">미래청년기획단</string>
-    <string name="job1Policy4Date">매년 3월</string>
-    <string name="job1Policy5Title">청년후계농 선발 및 영농정착지원</string>
-    <string name="job1Policy5Content">서울특별시 농업기술센터</string>
-    <string name="job1Policy5Date">12월 말 공고, 1월경 접수마감 (2021년 기준)</string>
-    <string name="job1Policy6Title">서울형 뉴딜 일자리</string>
-    <string name="job1Policy6Content">서울일자리센터</string>
-    <string name="job1Policy6Date">상시</string>
+    <string name="job1Policy3Title">서울형 뉴딜 일자리</string>
+    <string name="job1Policy3Content">서울일자리센터</string>
+    <string name="job1Policy3Date">상시</string>
+    <string name="job1Policy4Title">국민취업지원제도</string>
+    <string name="job1Policy4Content">고용노동부</string>
+    <string name="job1Policy4Date">상시</string>
+    <string name="job1Policy5Title">청년프로젝트 지원사업</string>
+    <string name="job1Policy5Content">미래청년기획단</string>
+    <string name="job1Policy5Date">매년 3월</string>
+    <string name="job1Policy6Title">청년후계농 선발 및 영농정착지원</string>
+    <string name="job1Policy6Content">서울특별시 농업기술센터</string>
+    <string name="job1Policy6Date">12월 말 공고, 1월경 접수마감 (2021년 기준)</string>
     <string name="job1Policy7Title">서울형 청년인턴 직무캠프</string>
     <string name="job1Policy7Content">-</string>
     <string name="job1Policy7Date">기업:1월경 인턴:4월경 (홈페이지 참고)</string>
@@ -44,15 +44,15 @@
     <string name="job1Policy9Title">서울형 강소기업 선정지원</string>
     <string name="job1Policy9Content">서울특별시 일자리정책과 청년일자리팀</string>
     <string name="job1Policy9Date">홈페이지 참고</string>
-    <string name="job1Policy10Title">청년일자리 1,000개의 꿈</string>
-    <string name="job1Policy10Content">미래청년기획단</string>
-    <string name="job1Policy10Date">홈페이지 참고</string>
+    <string name="job1Policy10Title">AI 면접체험•역량검사</string>
+    <string name="job1Policy10Content">서울시</string>
+    <string name="job1Policy10Date">2021년 5월 ~ 12월</string>
 
-    <string name="job2Policy1Title">청년일자리 1,000개의 꿈</string>
-    <string name="job2Policy1Content">미래청년기획단</string>
-    <string name="job2Policy1Date">홈페이지 참고</string>
-    <string name="job2Policy2Title">청년일자리 1,000개의 꿈</string>
-    <string name="job2Policy2Content">미래청년기획단</string>
+    <string name="job2Policy1Title">전문대생 시험/교육비 지원</string>
+    <string name="job2Policy1Content">서울시</string>
+    <string name="job2Policy1Date"> 2021년 8월 - 2022년 2월</string>
+    <string name="job2Policy2Title">취업장려금</string>
+    <string name="job2Policy2Content">서울시</string>
     <string name="job2Policy2Date">홈페이지 참고</string>
 
     // DWELLING
@@ -60,36 +60,36 @@
     <string name="liveSub2Title">청년을 위한 주택 지원</string>
 
     <string name="live1Policy1Title">청년 주거급여 분리지급</string>
-    <string name="live1Policy1Content">간단한 정책 내용</string>
-    <string name="live1Policy1Date">발의 날짜</string>
+    <string name="live1Policy1Content">기준 임대료 한도 내에서 임차급여 지급</string>
+    <string name="live1Policy1Date">홈페이지 참고</string>
     <string name="live1Policy2Title">청년임차보증금 지원</string>
-    <string name="live1Policy2Content">간단한 정책 내용</string>
-    <string name="live1Policy2Date">발의 날짜</string>
+    <string name="live1Policy2Content">보증금 대출 및 이자를 일부 지원</string>
+    <string name="live1Policy2Date">홈페이지 참고</string>
     <string name="live1Policy3Title">청년 우대형 청약통장</string>
-    <string name="live1Policy3Content">간단한 정책 내용</string>
-    <string name="live1Policy3Date">발의 날짜</string>
+    <string name="live1Policy3Content">기존 주택청약종합 저축 이율에 우대이율을 적용하여 이율 계산</string>
+    <string name="live1Policy3Date">홈페이지 참고</string>
 
     <string name="live2Policy1Title">역세권 청년주택 공급</string>
-    <string name="live2Policy1Content">간단한 정책 내용</string>
-    <string name="live2Policy1Date">발의 날짜</string>
+    <string name="live2Policy1Content">저렴하고 쾌적한 주택 공급 지원</string>
+    <string name="live2Policy1Date">홈페이지 참고</string>
     <string name="live2Policy2Title">청년 사회적 주택</string>
-    <string name="live2Policy2Content">간단한 정책 내용</string>
-    <string name="live2Policy2Date">발의 날짜</string>
+    <string name="live2Policy2Content">LH의 임대주택을 주변 시세 50% 수준으로 다양한 주거서비스 함께 지원</string>
+    <string name="live2Policy2Date">홈페이지 참고</string>
     <string name="live2Policy3Title">공적임대주택공급</string>
-    <string name="live2Policy3Content">간단한 정책 내용</string>
-    <string name="live2Policy3Date">발의 날짜</string>
+    <string name="live2Policy3Content">저렴한 임대료 및 보증금, 안정적인 거주 기간 보장</string>
+    <string name="live2Policy3Date">홈페이지 참고</string>
     <string name="live2Policy4Title">청년행복주택사업</string>
-    <string name="live2Policy4Content">간단한 정책 내용</string>
-    <string name="live2Policy4Date">발의 날짜</string>
+    <string name="live2Policy4Content">대중교통이 편리하거나 직장과 가까운 국/공유지에 행복주택 공급</string>
+    <string name="live2Policy4Date">홈페이지 참고</string>
     <string name="live2Policy5Title">청년주택 4호 공급</string>
-    <string name="live2Policy5Content">간단한 정책 내용</string>
-    <string name="live2Policy5Date">발의 날짜</string>
+    <string name="live2Policy5Content">주변 시세의 30-50% 시세 수준의 임대주택 제공</string>
+    <string name="live2Policy5Date">홈페이지 참고</string>
     <string name="live2Policy6Title">부산드림아파트 공급</string>
-    <string name="live2Policy6Content">간단한 정책 내용</string>
-    <string name="live2Policy6Date">발의 날짜</string>
+    <string name="live2Policy6Content">젊은 계층 우선적으로 주변 시세의 80% 이하로 공급</string>
+    <string name="live2Policy6Date">홈페이지 참고</string>
     <string name="live2Policy7Title">청년주택 임대지원</string>
-    <string name="live2Policy7Content">간단한 정책 내용</string>
-    <string name="live2Policy7Date">발의 날짜</string>
+    <string name="live2Policy7Content">저소득층 임대보증금 무이자 지원</string>
+    <string name="live2Policy7Date">홈페이지 참고</string>
 
     // FINANACE+WELFARE
     <string name="fwTitle">일자리</string>
@@ -97,27 +97,27 @@
     <string name="fwSub2Title">청년을 위한 건강복지 지원</string>
 
     <string name="fw1Policy1Title">청년수당</string>
-    <string name="fw1Policy1Content">간단한 정책 내용</string>
-    <string name="fw1Policy1Date">발의 날짜</string>
+    <string name="fw1Policy1Content">청년 대상으로 청년 생활비 지원</string>
+    <string name="fw1Policy1Date">홈페이지 참고</string>
     <string name="fw1Policy2Title">희망두배청년통장</string>
-    <string name="fw1Policy2Content">간단한 정책 내용</string>
-    <string name="fw1Policy2Date">발의 날짜</string>
+    <string name="fw1Policy2Content">본인 저축 금액의 100% 추가 적립</string>
+    <string name="fw1Policy2Date">홈페이지 참고</string>
     <string name="fw1Policy3Title">청년저축계좌</string>
-    <string name="fw1Policy3Content">간단한 정책 내용</string>
-    <string name="fw1Policy3Date">발의 날짜</string>
+    <string name="fw1Policy3Content">적립금 저축시 근로소득장려금 지원</string>
+    <string name="fw1Policy3Date">홈페이지 참고</string>
     <string name="fw1Policy4Title">학자금 대출이자 지원사업</string>
-    <string name="fw1Policy4Content">간단한 정책 내용</string>
-    <string name="fw1Policy4Date">발의 날짜</string>
+    <string name="fw1Policy4Content">학자금 대출 이자를 지원</string>
+    <string name="fw1Policy4Date">홈페이지 참고</string>
     <string name="fw1Policy5Title">학자금 대출 신용회복 지원</string>
-    <string name="fw1Policy5Content">간단한 정책 내용</string>
-    <string name="fw1Policy5Date">발의 날짜</string>
+    <string name="fw1Policy5Content">학자금 대출로 인해 신용유의자가 된 서울 거주 청년 지원 사업</string>
+    <string name="fw1Policy5Date">홈페이지 참고</string>
 
     <string name="fw2Policy1Title">청년 신체건강 지원 사업</string>
-    <string name="fw2Policy1Content">간단한 정책 내용</string>
-    <string name="fw2Policy1Date">발의 날짜</string>
+    <string name="fw2Policy1Content">청년 맞춤형 운동 프로그램 운영</string>
+    <string name="fw2Policy1Date">홈페이지 참고</string>
     <string name="fw2Policy2Title">서울시 청년 마음 잇다</string>
-    <string name="fw2Policy2Content">간단한 정책 내용</string>
-    <string name="fw2Policy2Date">발의 날짜</string>
+    <string name="fw2Policy2Content">청년의 마음 건강을 지원</string>
+    <string name="fw2Policy2Date">홈페이지 참고</string>
 
 
     <string name="jobs">일자리</string>
