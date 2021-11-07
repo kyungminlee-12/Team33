@@ -134,7 +134,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll1Policy2Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -162,6 +162,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="30px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                         <LinearLayout
@@ -182,7 +191,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll1Policy3Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -210,6 +219,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="30px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                         <LinearLayout
@@ -230,7 +248,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll1Policy4Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -258,6 +276,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="20px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                         <LinearLayout
@@ -278,7 +305,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll1Policy5Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -306,6 +333,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="30px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                         <LinearLayout
@@ -326,7 +362,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll1Policy6Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -354,6 +390,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="30px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                         <LinearLayout
@@ -374,7 +419,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll1Policy7Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -402,6 +447,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="30px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                         <LinearLayout
@@ -422,7 +476,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll1Policy8Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -450,6 +504,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="30px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                         <LinearLayout
@@ -470,7 +533,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll1Policy9Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -498,6 +561,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="20px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                         <LinearLayout
@@ -518,7 +590,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll1Policy10Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -546,6 +618,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="30px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -607,7 +688,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll2Policy1Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -635,6 +716,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="30px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                         <LinearLayout
@@ -655,7 +745,7 @@
 
                             <LinearLayout
                                 android:id="@+id/ll2Policy2Detail"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
                                 android:orientation="vertical">
@@ -683,6 +773,15 @@
                                     android:text="발의 날짜"
                                     android:textSize="30px" />
                             </LinearLayout>
+                            <Button
+                                android:id="@+id/btn12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="100px"
+                                android:text="자세히 보기"
+                                />
                         </LinearLayout>
 
                     </LinearLayout>

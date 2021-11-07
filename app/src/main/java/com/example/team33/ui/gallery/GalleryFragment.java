@@ -123,14 +123,14 @@ public class GalleryFragment extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        // Button b = (Button) v;
+        Button b = (Button) v;
 
-        // switch(b.getId()) {
+        switch(b.getId()) {
             //id에 따라서 다른 구현을 한다.
-            // case R.id.btn1:
+             case R.id.btn1:
                 //버튼 클릭시 아래 구현이 실행된다.
-        getActivity().startActivity(new Intent(getActivity(), JobPolicy1.class));
-        //        break;
-        //}
+                getActivity().startActivity(new Intent(getActivity(), JobPolicy1.class));
+                break;
+        }
     }
 }
