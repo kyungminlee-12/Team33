@@ -1,5 +1,6 @@
 package com.example.team33.ui.gallery;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.text.Layout;
@@ -13,6 +14,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+
+import com.example.team33.JobPolicy1;
 import com.example.team33.R;
 import com.example.team33.ui.slideshow.SlideshowViewModel;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,7 +24,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class GalleryFragment extends Fragment implements View.OnClickListener {
 
-    private GalleryViewModel galleryViewModel;
+    //private GalleryViewModel galleryViewModel;
 
     TextView tv_sub1Title, tv_sub2Title;
     TextView list1_PolicyNames[] = new TextView[10];
@@ -36,8 +39,7 @@ public class GalleryFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        //galleryViewModel =new ViewModelProvider(this).get(GalleryViewModel.class);
 
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
 
