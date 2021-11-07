@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class JobPolicy1 extends AppCompatActivity {
+public class LivePolicy1 extends AppCompatActivity {
 
     TextView text,text2;
     Button btn;
@@ -18,29 +18,29 @@ public class JobPolicy1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_job_policy1);
-        text=(TextView) findViewById(R.id.relate_content1);
-        text2=(TextView)findViewById(R.id.relate_content2);
+        setContentView(R.layout.activity_live_policy1);
+        text=(TextView) findViewById(R.id.relate_content_live2);
+        text2=(TextView)findViewById(R.id.relate_content_live3);
         text.setOnClickListener(this::onClick);
         text2.setOnClickListener(this::onClick);
-        btn=(Button)findViewById(R.id.button);
+        btn=(Button)findViewById(R.id.button_live1);
         btn.setOnClickListener(this::onClick);
     }
 
     public void onClick(View v){
         switch (v.getId()){
-            case R.id.relate_content1:
-                intent=new Intent(JobPolicy1.this,JobPolicy2.class);
+            case R.id.relate_content_live2:
+                intent=new Intent(LivePolicy1.this,LivePolicy2.class);
                 startActivity(intent);
                 break;
 
-            case R.id.relate_content2:
-                intent=new Intent(JobPolicy1.this,JobPolicy3.class);
+            case R.id.relate_content_live3:
+                intent=new Intent(LivePolicy1.this,LivePolicy3.class);
                 startActivity(intent);
                 break;
 
-            case R.id.button:
-                intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youth.seoul.go.kr/site/main/content/dream_app"));
+            case R.id.button_live1:
+                intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.bokjiro.go.kr/ssis-teu/index.do"));
                 startActivity(intent);
                 break;
         }

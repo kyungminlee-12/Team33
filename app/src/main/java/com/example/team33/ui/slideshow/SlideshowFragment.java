@@ -1,6 +1,8 @@
 package com.example.team33.ui.slideshow;
 
+import android.content.Intent;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +15,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 
 
+import com.example.team33.JobPolicyRed1;
+import com.example.team33.JobPolicyRed2;
 import com.example.team33.R;
 
 public class SlideshowFragment extends Fragment {
@@ -103,4 +107,5 @@ public class SlideshowFragment extends Fragment {
 
         return root;
     }
+
 }
