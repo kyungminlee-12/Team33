@@ -1,5 +1,6 @@
 # Team33
 청년 정책 알리미 (청림이)
+[기획서](https://mixed-sodium-f9d.notion.site/33-SMSWH-2021-11a146a05dc645489163886cb7379cb0)
 
 #  :bulb: 청림이
 
