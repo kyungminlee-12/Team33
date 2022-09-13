@@ -1,5 +1,6 @@
 # Team33
 청년 정책 알리미 (청림이)
+<br/>
 [기획서](https://mixed-sodium-f9d.notion.site/33-SMSWH-2021-11a146a05dc645489163886cb7379cb0)
 
 #  :bulb: 청림이
@@ -44,3 +45,7 @@
 2️⃣ 청년들의 정치 효능감을 높일 수 있다. 
 
 3️⃣ 사회의 미래를 대표하는 청년층의 적극적인 정치 참여를 독려할 수 있다.
+
+
+## 영상
+https://user-images.githubusercontent.com/64300626/189791771-3bc6b2d4-0f69-41f4-a177-acbbe7a51806.mp4
